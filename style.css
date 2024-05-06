@@ -4,3 +4,29 @@ body{
 p .target{
     color:aliceblue
 }
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.title{
+    text-align:center;
+    justify-content:flex-start;
+}
+.list-1{
+    align-self:flex-start;
+}
+.list-2{
+    align-self:flex-end;
+}
+img{
+    border-color:red;
+    border-style: double;
+    border-width: 4px;
+}
+section{
+    color: aqua;
+    background-color:white;
+}
